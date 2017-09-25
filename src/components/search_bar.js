@@ -11,7 +11,7 @@ class SearchBar extends Component {
 	}
 	render() {
 		return (
-			<div>
+			<div className="search-bar">
 				{/* a controlled component has its value set by state */}
 				<input
 					value={this.state.term}
